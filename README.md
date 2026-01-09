@@ -13,11 +13,16 @@ mkdir aztec-flush-bot
 cd aztec-flush-bot
 
 # Initialize npm project
+
+```bash
 npm init -y
+```
 
 # Install dependencies
-npm install ethers@6 dotenv
 
+```bash
+npm install ethers@6 dotenv
+```
 
 # Step 2: Create Environment File
 Create a .env file in your project root and copy the contents of .env-example to .env
@@ -29,4 +34,7 @@ Create a .env file in your project root and copy the contents of .env-example to
  it saves the wallet keys to wallet.txt; fund wallet with eth
 
  # START FLUSH
+ 
+ ```bash
 node flush.js
+```
