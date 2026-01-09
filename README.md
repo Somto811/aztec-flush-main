@@ -9,7 +9,18 @@ Basic understanding of running scripts and environment variables
 
 # Step 1: Project Setup
 
-bash# Create a new directory
+## Requirements / Setup
+
+Update system and install dependencies:
+```bash
+sudo apt install -y curl git build-essential
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
+npm init -y
+npm install ethers dotenv
+
+```
+# Create a new directory
 
 ```bash
 mkdir aztec-flush-bot
