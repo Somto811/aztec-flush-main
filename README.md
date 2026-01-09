@@ -28,7 +28,7 @@ npm install ethers@6 dotenv
 Create a .env file in your project root and copy the contents of .env-example to .env
 
 
-# Step 5: Running the Bot
+# Step 3: Running the Bot
  Run the bot
  you can create neew wallet with: node createwallet
  it saves the wallet keys to wallet.txt; fund wallet with eth
