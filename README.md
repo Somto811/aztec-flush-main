@@ -7,11 +7,14 @@ Multiple Ethereum wallets with ETH for gas fees
 Ethereum RPC endpoint (Alchemy, Infura, or your own node)
 Basic understanding of running scripts and environment variables
 
-Step 1: Project Setup
+# Step 1: Project Setup
+
 bash# Create a new directory
+
+```bash
 mkdir aztec-flush-bot
 cd aztec-flush-bot
-
+```
 # Initialize npm project
 
 ```bash
