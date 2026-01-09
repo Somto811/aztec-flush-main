@@ -16,8 +16,6 @@ Update system and install dependencies:
 sudo apt install -y curl git build-essential
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
-npm init -y
-npm install ethers dotenv
 
 ```
 # Create a new directory
